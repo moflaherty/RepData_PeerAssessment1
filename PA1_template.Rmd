@@ -176,7 +176,7 @@ Write out the *.Rmd and *.html files:
 
 ```{r echo=TRUE, eval=FALSE}
 library(knitr)
-knit2html('PA1_template.html')
+knit2html('PA1_template.Rmd')
 browseURL('PA1_template.html')
 ```
 
